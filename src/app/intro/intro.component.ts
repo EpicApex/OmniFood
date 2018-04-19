@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { IntroNavComponent } from './intro-nav/intro-nav.component';
 
 @Component({
   selector: 'app-intro',

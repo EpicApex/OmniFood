@@ -9,6 +9,8 @@ export class IntroNavComponent implements OnInit {
 
   constructor() { }
 
+  title = 'Navigation Bar';
+
   ngOnInit() {
   }
 

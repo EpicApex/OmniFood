@@ -3,3 +3,51 @@
 @import "./styles/variables";
 @import "./styles/grid";
 @import "./styles/framework";
+
+h1,h2 {
+    /* Where is the element */
+    border: 5px solid rgba(23, 102, 221, 0.88);
+    /*======================*/
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+h1{
+  /* Where is the element */
+  border: 5px solid rgba(23, 102, 221, 0.88);
+  /*======================*/
+
+  color: #fff;
+  font-size: 200%;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  word-spacing: 4px;
+}
+
+h2{
+
+  text-align: center;
+  font-weight: 300;
+  font-size: 180%;
+  text-align: center;
+  word-spacing: 2x;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+h2:after{
+  display: block;
+  height: 2px;
+  background-color: #e2b70d;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+h3{
+  text-transform: uppercase;
+  font-size: 110%;
+  margin-bottom: 15px;
+}

@@ -12,3 +12,34 @@
         width: 150px;
     }
 }
+
+
+.nav-top {
+    margin-top: 55px;
+    float:  right;
+    list-style: none;
+  }
+  
+  .nav-top li{
+    display: inline-block;
+    margin-left: 40px;
+    
+  }
+  
+  .nav-top li a:link,
+  .nav-top li a:visited{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    padding-bottom: 5px 0;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+  }
+  
+  .nav-top li a:hover,
+  .nav-top li a:active{
+    border-bottom: 1px solid #e67e22;
+    padding-bottom: 5px 0;
+  }
+  

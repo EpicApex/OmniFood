@@ -2,7 +2,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { IntroNavComponent } from './intro-nav.component';
 
-describe('IntroItemsComponent', () => {
+describe('IntroNavComponent', () => {
   let component: IntroNavComponent;
   let fixture: ComponentFixture<IntroNavComponent>;
 
